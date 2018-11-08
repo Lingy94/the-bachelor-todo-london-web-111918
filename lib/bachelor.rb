@@ -50,6 +50,7 @@ def get_average_age_for_season(data, season)
    end
    sum = 0 
    list_of_ages.each do |x|
+<<<<<<< HEAD
      sum = sum + x   
      
    end
@@ -57,4 +58,12 @@ def get_average_age_for_season(data, season)
    sum = sum / list_of_ages.size.to_f
    
    return sum.round
+=======
+     sum + x 
+   end
+   sum = sum / list_of_ages.size.to_f
+   binding.pry
+   if sum 
+   end
+>>>>>>> dc2c4570d0c1b1334fecb68c94d96b8b3b5f603f
 end
